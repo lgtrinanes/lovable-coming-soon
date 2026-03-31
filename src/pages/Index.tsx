@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "@/assets/quebramar_logo.jpg";
 
 const Index = () => {
   return (
@@ -9,10 +10,11 @@ const Index = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="flex flex-col items-center gap-8"
       >
-        {/* Placeholder para sua imagem */}
-        <div className="flex h-48 w-48 items-center justify-center rounded-2xl border-2 border-dashed border-muted-foreground/30">
-          <span className="text-sm text-muted-foreground">Sua logo aqui</span>
-        </div>
+        <img
+          src={logo}
+          alt="Quebramar Creative Studio"
+          className="h-64 w-64 rounded-2xl object-contain sm:h-80 sm:w-80"
+        />
 
         <div className="space-y-3">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
