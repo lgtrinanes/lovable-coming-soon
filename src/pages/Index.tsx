@@ -8,19 +8,19 @@ const Index = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col items-center gap-8 text-white"
+        className="flex flex-col items-center gap-8"
       >
         <img
           src={logo}
           alt="Quebramar Creative Studio"
-          className="h-64 w-64 rounded-2xl object-contain sm:h-80 sm:w-80"
+          className="h-64 w-64 object-contain sm:h-80 sm:w-80"
         />
 
         <div className="space-y-3">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             TERRA À VISTA
           </h1>
-          <p className="max-w-md text-lg text-white/80">
+          <p className="max-w-md text-lg text-foreground/70">
             Preparando o navio. Volte em breve. Ahoy!
           </p>
         </div>
