@@ -17,8 +17,8 @@ const Index = () => {
         />
 
         <div className="space-y-3">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            TERRA À VISTA
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl" style={{ color: 'hsl(192, 50%, 25%)', fontFamily: 'Georgia, "Times New Roman", serif' }}>
+            TERRA À VISTA!
           </h1>
           <p className="max-w-md text-lg text-foreground/70">
             Preparando o navio. Volte em breve. Ahoy!
