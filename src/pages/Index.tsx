@@ -8,7 +8,7 @@ const Index = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col items-center gap-8"
+        className="flex flex-col items-center gap-8 text-white"
       >
         <img
           src={logo}
@@ -17,11 +17,11 @@ const Index = () => {
         />
 
         <div className="space-y-3">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            EM BREVE
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+            TERRA À VISTA
           </h1>
-          <p className="max-w-md text-lg text-muted-foreground">
-            Estamos preparando algo incrível. Volte em breve!
+          <p className="max-w-md text-lg text-white/80">
+            Preparando o navio. Volte em breve. Ahoy!
           </p>
         </div>
 
