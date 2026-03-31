@@ -8,7 +8,7 @@ const Index = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col items-center gap-8"
+        className="flex flex-col items-center gap-3"
       >
         <img
           src={logo}
@@ -16,7 +16,7 @@ const Index = () => {
           className="h-64 w-64 object-contain sm:h-80 sm:w-80"
         />
 
-        <div className="flex flex-col items-center space-y-3">
+        <div className="flex flex-col items-center gap-2">
           <svg
             width="120"
             height="24"
