@@ -8,12 +8,12 @@ const Index = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col items-center gap-8 text-white"
+        className="flex flex-col items-center gap-8"
       >
         <img
           src={logo}
           alt="Quebramar Creative Studio"
-          className="h-64 w-64 rounded-2xl object-contain sm:h-80 sm:w-80"
+          className="h-64 w-64 object-contain sm:h-80 sm:w-80"
         />
 
         <div className="space-y-3">
