@@ -17,10 +17,10 @@ const Index = () => {
         />
 
         <div className="space-y-3">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             TERRA À VISTA
           </h1>
-          <p className="max-w-md text-lg text-white/80">
+          <p className="max-w-md text-lg text-foreground/70">
             Preparando o navio. Volte em breve. Ahoy!
           </p>
         </div>
