@@ -22,7 +22,7 @@ const Index = () => {
             height="24"
             viewBox="0 0 300 24"
             fill="none"
-            className="overflow-visible w-full max-w-[280px] sm:max-w-[320px]"
+            className="overflow-visible w-full max-w-[280px] sm:max-w-[320px] my-[10px]"
             preserveAspectRatio="none"
           >
             <motion.path
