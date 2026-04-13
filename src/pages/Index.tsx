@@ -18,22 +18,23 @@ const Index = () => {
 
         <div className="flex flex-col items-center gap-2">
           <svg
-            width="120"
+            width="100%"
             height="24"
-            viewBox="0 0 120 24"
+            viewBox="0 0 300 24"
             fill="none"
-            className="overflow-visible"
+            className="overflow-visible w-full max-w-[280px] sm:max-w-[320px]"
+            preserveAspectRatio="none"
           >
             <motion.path
-              d="M0 12 Q15 2, 30 12 Q45 22, 60 12 Q75 2, 90 12 Q105 22, 120 12"
+              d="M0 12 Q37.5 2, 75 12 Q112.5 22, 150 12 Q187.5 2, 225 12 Q262.5 22, 300 12"
               stroke="hsl(195, 50%, 45%)"
               strokeWidth="2.5"
               strokeLinecap="round"
               fill="none"
               animate={{ d: [
-                "M0 12 Q15 2, 30 12 Q45 22, 60 12 Q75 2, 90 12 Q105 22, 120 12",
-                "M0 12 Q15 22, 30 12 Q45 2, 60 12 Q75 22, 90 12 Q105 2, 120 12",
-                "M0 12 Q15 2, 30 12 Q45 22, 60 12 Q75 2, 90 12 Q105 22, 120 12",
+                "M0 12 Q37.5 2, 75 12 Q112.5 22, 150 12 Q187.5 2, 225 12 Q262.5 22, 300 12",
+                "M0 12 Q37.5 22, 75 12 Q112.5 2, 150 12 Q187.5 22, 225 12 Q262.5 2, 300 12",
+                "M0 12 Q37.5 2, 75 12 Q112.5 22, 150 12 Q187.5 2, 225 12 Q262.5 22, 300 12",
               ]}}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             />
