@@ -1,53 +1,27 @@
-import { motion } from "framer-motion";
-import logo from "@/assets/quebramar_logo.jpg";
+import { LanguageProvider } from "@/i18n/LanguageContext";
+import { Navbar } from "@/components/sections/Navbar";
+import { Hero } from "@/components/sections/Hero";
+import { Assets } from "@/components/sections/Assets";
+import { Portfolio } from "@/components/sections/Portfolio";
+import { About } from "@/components/sections/About";
+import { Contact } from "@/components/sections/Contact";
+import { Footer } from "@/components/sections/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-background px-6 text-center">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col items-center gap-3"
-      >
-        <img
-          src={logo}
-          alt="Quebramar Creative Studio"
-          className="h-64 w-64 object-contain sm:h-80 sm:w-80"
-        />
-
-        <div className="flex flex-col items-center gap-2">
-          <svg
-            width="100%"
-            height="24"
-            viewBox="0 0 300 24"
-            fill="none"
-            className="overflow-visible w-full max-w-[280px] sm:max-w-[320px] my-[10px]"
-            preserveAspectRatio="none"
-          >
-            <motion.path
-              d="M0 14 Q37.5 0, 75 14 Q112.5 28, 150 14 Q187.5 0, 225 14 Q262.5 28, 300 14"
-              stroke="hsl(195, 50%, 45%)"
-              strokeWidth="3.5"
-              strokeLinecap="round"
-              fill="none"
-              animate={{ d: [
-                "M0 14 Q37.5 0, 75 14 Q112.5 28, 150 14 Q187.5 0, 225 14 Q262.5 28, 300 14",
-                "M0 14 Q37.5 28, 75 14 Q112.5 0, 150 14 Q187.5 28, 225 14 Q262.5 0, 300 14",
-                "M0 14 Q37.5 0, 75 14 Q112.5 28, 150 14 Q187.5 0, 225 14 Q262.5 28, 300 14",
-              ]}}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            />
-          </svg>
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl" style={{ color: 'hsl(180, 30%, 15%)', fontFamily: 'Georgia, "Times New Roman", serif' }}>
-            TERRA À VISTA!
-          </h1>
-          <p className="max-w-md text-lg text-foreground/70">
-            Preparando o navio. Volte em breve. Ahoy!
-          </p>
-        </div>
-      </motion.div>
-    </div>
+    <LanguageProvider>
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <main>
+          <Hero />
+          <Assets />
+          <Portfolio />
+          <About />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </LanguageProvider>
   );
 };
 
