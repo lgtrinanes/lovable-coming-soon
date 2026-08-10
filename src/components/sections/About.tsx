@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import boats from "@/assets/quebramar_5_barcos.jpg";
+import boats from "@/assets/asset-coastal-village.jpg";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { WaveDivider } from "@/components/WaveDivider";
 
@@ -43,13 +43,13 @@ export const About = () => {
 
         <motion.img
           src={boats}
-          alt="Ilustração de barcos do Quebramar Creative Studio"
+          alt="Cena 3D de vila costeira produzida pelo Quebramar Creative Studio"
           loading="lazy"
           initial={{ opacity: 0, x: 24 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6 }}
-          className="w-full rounded-xl object-contain"
+          className="w-full rounded-xl object-cover shadow-card"
         />
       </div>
     </section>
