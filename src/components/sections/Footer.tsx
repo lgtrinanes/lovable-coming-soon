@@ -9,9 +9,9 @@ export const Footer = () => {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 text-center sm:flex-row sm:justify-between sm:text-left">
         <div className="flex items-center gap-3">
           <img
-            src={logo}
+            src={logo.url}
             alt="Logo do Quebramar Creative Studio"
-            className="h-10 w-10 rounded-full object-contain"
+            className="h-10 w-auto object-contain"
             loading="lazy"
             width={40}
             height={40}

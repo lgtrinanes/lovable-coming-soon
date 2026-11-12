@@ -33,9 +33,9 @@ export const Navbar = () => {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <a href="#top" className="flex items-center gap-2" aria-label="Quebramar Creative Studio">
           <img
-            src={logo}
+            src={logo.url}
             alt="Logo do Quebramar Creative Studio"
-            className="h-10 w-10 rounded-full object-contain"
+            className="h-9 w-auto object-contain"
             width={40}
             height={40}
           />

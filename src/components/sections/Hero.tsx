@@ -19,7 +19,7 @@ export const Hero = () => {
         className="flex flex-col items-center gap-3"
       >
         <img
-          src={logo}
+          src={logo.url}
           alt="Quebramar Creative Studio"
           className="h-56 w-56 object-contain sm:h-72 sm:w-72"
           width={288}
