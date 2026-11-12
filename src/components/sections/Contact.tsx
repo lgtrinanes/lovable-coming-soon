@@ -3,7 +3,7 @@ import { useLanguage } from "@/i18n/LanguageContext";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { fabStoreUrl } from "@/data/assets";
 
-export const CONTACT_EMAIL = "contato@quebramar.art";
+export const CONTACT_EMAIL = "quebramar.art@icloud.com";
 
 const socials = [
   { label: "Fab", href: fabStoreUrl, Icon: ShoppingBag },
