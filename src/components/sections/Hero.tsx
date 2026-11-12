@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import logo from "@/assets/quebramar_logo.jpg";
+import logo from "@/assets/quebramar_logo.png.asset.json";
 import { WaveDivider } from "@/components/WaveDivider";
 import { useLanguage } from "@/i18n/LanguageContext";
 

@@ -1,4 +1,4 @@
-import logo from "@/assets/quebramar_logo.jpg";
+import logo from "@/assets/quebramar_logo.png.asset.json";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 export const Footer = () => {
