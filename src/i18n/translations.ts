@@ -4,6 +4,7 @@ export const translations = {
   pt: {
     "nav.assets": "Assets",
     "nav.portfolio": "Portfólio",
+    "nav.manifesto": "Manifesto",
     "nav.about": "Sobre",
     "nav.contact": "Contato",
 
@@ -27,6 +28,13 @@ export const translations = {
       "Projetos de arte 3D, ambientes e cinematics em tempo real produzidos pelo Quebramar.",
     "portfolio.close": "Fechar",
 
+    "manifesto.eyebrow": "Nossa carta",
+    "manifesto.title": "Manifesto",
+    "manifesto.description":
+      "O que nos move quando ninguém está olhando — e o que isso muda no que publicamos.",
+    "manifesto.imagePlaceholder": "Espaço reservado para imagem",
+    "manifesto.updated": "Revisado em",
+
     "about.eyebrow": "O ESTÚDIO",
     "about.title": "Sobre a Quebramar",
     "about.p1":
@@ -49,6 +57,7 @@ export const translations = {
   en: {
     "nav.assets": "Assets",
     "nav.portfolio": "Portfolio",
+    "nav.manifesto": "Manifesto",
     "nav.about": "About",
     "nav.contact": "Contact",
 
@@ -71,6 +80,13 @@ export const translations = {
     "portfolio.description":
       "3D art, environments and real-time cinematics produced by Quebramar.",
     "portfolio.close": "Close",
+
+    "manifesto.eyebrow": "Our charter",
+    "manifesto.title": "Manifesto",
+    "manifesto.description":
+      "What drives us when nobody is watching — and how that shapes what we publish.",
+    "manifesto.imagePlaceholder": "Reserved image space",
+    "manifesto.updated": "Reviewed in",
 
     "about.eyebrow": "The studio",
     "about.title": "About Quebramar",
