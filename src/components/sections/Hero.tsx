@@ -37,20 +37,7 @@ export const Hero = () => {
             {t("hero.subtitle")}
           </p>
 
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-            <a
-              href="#assets"
-              className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-soft transition-transform hover:scale-105"
-            >
-              {t("hero.ctaAssets")}
-            </a>
-            <a
-              href="#portfolio"
-              className="rounded-full border border-primary/40 px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary/10"
-            >
-              {t("hero.ctaPortfolio")}
-            </a>
-          </div>
+          <div className="mt-6 flex h-11 flex-wrap items-center justify-center gap-3" aria-hidden="true" />
         </div>
       </motion.div>
 
