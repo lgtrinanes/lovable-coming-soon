@@ -27,7 +27,7 @@ export const translations = {
       "Projetos de arte 3D, ambientes e cinematics em tempo real produzidos pelo Quebramar.",
     "portfolio.close": "Fechar",
 
-    "about.eyebrow": "O studio",
+    "about.eyebrow": "O ESTÚDIO",
     "about.title": "Sobre o Quebramar",
     "about.p1":
       "O Quebramar é um studio criativo dedicado a arte 3D e desenvolvimento de conteúdo para Unreal Engine. Nascemos do encontro entre o mar e a tecnologia: cada projeto começa com pesquisa visual e termina em assets otimizados, prontos para produção.",
