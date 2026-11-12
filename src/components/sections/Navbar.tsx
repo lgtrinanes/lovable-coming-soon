@@ -34,12 +34,11 @@ export const Navbar = () => {
         <a href="#top" className="flex items-center gap-2" aria-label="Quebramar Creative Studio">
           <img
             src={logo.url}
-            alt="Logo do Quebramar Creative Studio"
-            className="h-9 w-auto object-contain"
-            width={40}
-            height={40}
+            alt="Quebramar Creative Studio"
+            className="h-12 w-auto object-contain"
+            width={63}
+            height={48}
           />
-          <span className="font-display text-lg font-bold tracking-tight text-deep">Quebramar</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

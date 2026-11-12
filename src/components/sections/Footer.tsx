@@ -10,14 +10,13 @@ export const Footer = () => {
         <div className="flex items-center gap-3">
           <img
             src={logo.url}
-            alt="Logo do Quebramar Creative Studio"
-            className="h-10 w-auto object-contain"
+            alt="Quebramar Creative Studio"
+            className="h-20 w-auto object-contain"
             loading="lazy"
-            width={40}
-            height={40}
+            width={105}
+            height={80}
           />
           <div>
-            <p className="font-display font-bold text-deep">Quebramar Creative Studio</p>
             <p className="text-xs text-foreground/60">{t("footer.tagline")}</p>
           </div>
         </div>
