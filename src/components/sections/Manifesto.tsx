@@ -16,14 +16,14 @@ export const Manifesto = () => {
           description={t("manifesto.description")}
         />
 
-        <div className="mt-14 grid items-stretch gap-8 lg:grid-cols-2">
+        <div className="mt-14 grid items-stretch gap-8 md:grid-cols-2">
           {/* Espaço reservado para a imagem — defina manifesto.image em src/data/manifesto.ts */}
           <motion.div
             initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6 }}
-            className="min-h-[280px] overflow-hidden rounded-xl border border-dashed border-primary/40 bg-card/60"
+            className="min-h-[280px] overflow-hidden rounded-xl border border-dashed border-primary/40 bg-card/60 md:aspect-[3/4] md:min-h-0"
           >
             {manifesto.image ? (
               <img
@@ -33,7 +33,7 @@ export const Manifesto = () => {
                 className="h-full w-full object-cover"
               />
             ) : (
-              <div className="flex h-full min-h-[280px] w-full flex-col items-center justify-center gap-3 p-8 text-center">
+              <div className="flex h-full min-h-[280px] w-full flex-col items-center justify-center gap-3 p-8 text-center md:min-h-0">
                 <ImageIcon className="h-8 w-8 text-primary/50" aria-hidden="true" />
                 <p className="text-sm font-medium text-foreground/55">
                   {t("manifesto.imagePlaceholder")}
