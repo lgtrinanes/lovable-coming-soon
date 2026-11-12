@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/quebramar_logo.jpg";
+import logo from "@/assets/quebramar_logo.png.asset.json";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { cn } from "@/lib/utils";
 
@@ -33,13 +33,12 @@ export const Navbar = () => {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <a href="#top" className="flex items-center gap-2" aria-label="Quebramar Creative Studio">
           <img
-            src={logo}
-            alt="Logo do Quebramar Creative Studio"
-            className="h-10 w-10 rounded-full object-contain"
-            width={40}
-            height={40}
+            src={logo.url}
+            alt="Quebramar Creative Studio"
+            className="h-12 w-auto object-contain"
+            width={63}
+            height={48}
           />
-          <span className="font-display text-lg font-bold tracking-tight text-deep">Quebramar</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
